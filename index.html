@@ -3244,7 +3244,7 @@
                         <svg viewBox="0 0 520 190"><path d="M36 148L60 42l108 18 42-28 118 24 38 72 112 10" fill="none" stroke="#738091" stroke-width="9" stroke-linejoin="round"/><path d="M96 118h92V76h104v62h86" fill="none" stroke="#A1AAB5" stroke-width="6"/></svg>
                         <div class="map-badges"><span class="map-badge">3D</span></div><span class="map-preview-tip">3D预览</span>
                     </div>
-                    <div class="map-card-body"><div class="map-card-title-row"><div class="map-card-name">部署地图</div><span class="map-active"><img src="cleaning-robot.svg?v=20260701-4" alt="">使用中</span></div><div class="map-card-type">传感器类型：3D激光 + Marker</div>
+                    <div class="map-card-body"><div class="map-card-title-row"><div class="map-card-name">部署地图</div><span class="map-active"><img src="assets/icons/cleaning-robot.svg?v=20260701-4" alt="">使用中</span></div><div class="map-card-type">传感器类型：3D激光 + Marker</div>
                         <div class="map-card-footer"><button class="map-icon-btn" onclick="app.showMapEditor()" title="编辑"><svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg></button><button class="map-icon-btn" onclick="app.toggleMapMenu(this)" title="更多"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg></button><div class="map-more-menu"><button onclick="app.copyMapCard(this)">复制地图</button><button onclick="app.deleteMapMarkers(this)">删除marker</button><button onclick="app.deleteMapCard(this)">删除地图</button></div></div>
                     </div>
                 </article>
@@ -3343,7 +3343,7 @@
                             <circle id="createMappingTrackStart" cx="720" cy="500" r="9"/>
                             <circle id="createMappingTrackEnd" cx="720" cy="500" r="9"/>
                         </svg>
-                        <div class="create-robot-live" id="createRobotLive"><img src="cleaning-robot.svg?v=20260701-4" alt="机器人"></div>
+                        <div class="create-robot-live" id="createRobotLive"><img src="assets/icons/cleaning-robot.svg?v=20260701-4" alt="机器人"></div>
                     </div>
                     <div class="map-scale create-map-scale">
                         <div class="scale-ruler"></div>
@@ -3613,7 +3613,7 @@
                         <span class="push-side-visual">
                             <span class="push-side-arrow">↑</span>
                             <span class="push-side-zone left"></span>
-                            <img src="cleaning-robot.svg?v=20260701-4" alt="机身左侧示意">
+                            <img src="assets/icons/cleaning-robot.svg?v=20260701-4" alt="机身左侧示意">
                         </span>
                     </button>
                     <button class="push-side-option" data-push-side="right" onclick="app.selectPushSide('right', event)">
@@ -3621,7 +3621,7 @@
                         <span class="push-side-visual">
                             <span class="push-side-arrow">↑</span>
                             <span class="push-side-zone right"></span>
-                            <img src="cleaning-robot.svg?v=20260701-4" alt="机身右侧示意">
+                            <img src="assets/icons/cleaning-robot.svg?v=20260701-4" alt="机身右侧示意">
                         </span>
                     </button>
                 </div>
@@ -3632,7 +3632,7 @@
                 <div class="map-grid-overlay" id="mapGridOverlay"></div>
                 <div class="grid-layer" id="gridLayer">
                     <div class="supermarket-map">
-                        <img class="preset-map-image" src="parking-lot-map.png?v=20261014-5" alt="">
+                        <img class="preset-map-image" src="assets/maps/parking-lot.png?v=20261014-5" alt="">
                     </div>
                     <div class="push-track-layer">
                         <svg viewBox="0 0 1440 960" id="pushTrackSvg">
@@ -3647,13 +3647,13 @@
                         <div class="annotated-point" style="left:13%;top:68%;"><span>标注点位</span></div>
                     </div>
                     <div class="enhanced-map-layer">
-                        <img class="reflectivity-map-image" src="reflectivity-map.png?v=20261014-1" alt="">
+                        <img class="reflectivity-map-image" src="assets/maps/reflectivity.png?v=20261014-1" alt="">
                     </div>
                     <div class="ai-recognition-layer" aria-hidden="true">
                         <div class="ai-speed-bump" style="left:31%;top:29.9%;transform:rotate(90deg);"><span></span></div>
                     </div>
                     <div class="robot-marker">
-                        <img src="cleaning-robot.svg?v=20260701-4" alt="清洁机器人">
+                        <img src="assets/icons/cleaning-robot.svg?v=20260701-4" alt="清洁机器人">
                     </div>
                 </div>
                 <div class="map-scale">
@@ -3796,7 +3796,7 @@
                         <span class="mi-label">编辑</span>
                     </button>
                     <button class="mode-item active" data-mode="pan" onclick="app.requestMode('pan')">
-                        <img class="pan-mode-icon" src="gesture-pan-icon.svg?v=20261027-1" alt="">
+                        <img class="pan-mode-icon" src="assets/icons/gesture-pan.svg?v=20261027-1" alt="">
                         <span class="mi-label">抓手</span>
                     </button>
                 </div>
@@ -3820,7 +3820,7 @@
                                 <button class="shape-item" data-shape="line" onclick="app.setShape('line')"><svg viewBox="0 0 24 24"><path d="M4 20L20 4"/></svg><span class="mi-label">线段</span></button>
                             </div>
                         </div>
-                        <button class="pen-btn" id="penBtn" data-shape="pen" onclick="app.setShape('pen')"><img class="pen-tool-icon" src="pen-tool-icon.svg?v=20261027-3" alt=""><span class="mi-label">钢笔</span></button>
+                        <button class="pen-btn" id="penBtn" data-shape="pen" onclick="app.setShape('pen')"><img class="pen-tool-icon" src="assets/icons/pen-tool.svg?v=20261027-3" alt=""><span class="mi-label">钢笔</span></button>
                         <button class="pen-btn" id="centerPenBtn" data-shape="center-pen" onclick="app.setShape('center-pen')"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="3"/><path d="M5 5l4 4M19 5l-4 4M5 19l4-4M19 19l-4-4"/></svg><span class="mi-label">中心打点</span></button>
                         <button class="pen-btn" id="autoForbiddenBtn" data-shape="auto-forbidden" onclick="app.setShape('auto-forbidden')" title="自动生成禁区" style="display:none;"><span class="auto-mark">Auto</span><span class="mi-label">自动生成</span></button>
                     </div>
@@ -8150,10 +8150,10 @@
                                 <span class="mi-label">线段</span>
                             </button>` : ''}
                             <button class="pen-btn ${drawing && this.state.currentShape === 'pen' ? 'active' : ''}" id="penBtn" data-shape="pen" onclick="app.setForbiddenWallShape('pen')" aria-label="钢笔">
-                                <img class="pen-tool-icon" src="pen-tool-icon.svg?v=20261027-3" alt=""><span class="mi-label">${isForbidden ? '钢笔区域' : '钢笔边界'}</span>
+                                <img class="pen-tool-icon" src="assets/icons/pen-tool.svg?v=20261027-3" alt=""><span class="mi-label">${isForbidden ? '钢笔区域' : '钢笔边界'}</span>
                             </button>
                             <button class="pen-btn ${drawing && this.state.currentShape === 'push-wall' ? 'active' : ''}" id="centerPenBtn" data-shape="push-wall" onclick="app.openPushSidePicker(event)" aria-label="手推绘制">
-                                <img class="teaching-push-icon" src="teaching-push-icon.svg?v=20261027-2" alt="">
+                                <img class="teaching-push-icon" src="assets/icons/teaching-push.svg?v=20261027-2" alt="">
                                 <span class="mi-label">手推绘制</span>
                             </button>
                             ${isForbidden ? `<button class="pen-btn ${drawing && this.state.currentShape === 'auto-forbidden' ? 'active' : ''}" id="autoForbiddenBtn" data-shape="auto-forbidden" onclick="app.setForbiddenWallShape('auto-forbidden')" title="自动生成禁区">
@@ -8165,11 +8165,11 @@
                     shapeArea.innerHTML = `
                         <div class="shape-group">
                             <button class="pen-btn ${drawing && this.state.currentShape === 'center-pen' ? 'active' : ''}" id="centerPenBtn" data-shape="center-pen" onclick="app.setShape('center-pen')" aria-label="手推记录">
-                                <img class="teaching-push-icon" src="teaching-push-icon.svg?v=20261027-2" alt="">
+                                <img class="teaching-push-icon" src="assets/icons/teaching-push.svg?v=20261027-2" alt="">
                                 <span class="mi-label">手推记录</span>
                             </button>
                             <button class="pen-btn ${drawing && this.state.currentShape === 'pen' ? 'active' : ''}" id="penBtn" data-shape="pen" onclick="app.setShape('pen')" aria-label="钢笔">
-                                <img class="pen-tool-icon" src="pen-tool-icon.svg?v=20261027-3" alt="">
+                                <img class="pen-tool-icon" src="assets/icons/pen-tool.svg?v=20261027-3" alt="">
                                 <span class="mi-label">钢笔</span>
                             </button>
                         </div>
@@ -8204,7 +8204,7 @@
                                     </div>
                                 </div>
                                 <button class="pen-btn" id="penBtn" data-shape="pen" onclick="app.setShape('pen')">
-                                    <img class="pen-tool-icon" src="pen-tool-icon.svg?v=20261027-3" alt="">
+                                    <img class="pen-tool-icon" src="assets/icons/pen-tool.svg?v=20261027-3" alt="">
                                     <span class="mi-label">钢笔</span>
                                 </button>
                                 <button class="pen-btn" id="centerPenBtn" data-shape="center-pen" onclick="app.setShape('center-pen')">
